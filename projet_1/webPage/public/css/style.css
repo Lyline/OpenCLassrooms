@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+.highlight {
+  background: #9597CB;
+  padding: 0 15px;
+}
+
+.linearLighlight {
+  background: linear-gradient(90deg, #fff 0%, #9597CB 100%), #9597CB;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 460px;
+  background: linear-gradient(90deg, #203966 0.96%, #6B52E6 99.44%), #6B52E6;
+}
+header .content {
+  width: 500px;
+}
+header img {
+  width: 375px;
+  height: 369px;
+  border: 5px solid #9597CB;
+  box-sizing: border-box;
+  border-radius: 200px;
+}
+header h1 {
+  font-family: "Fondamento", cursive;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: -1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+header .subtitle {
+  font-size: 35px;
+  margin: 20px 0;
+  color: #203966;
+}
+header p {
+  font-size: 24px;
+  color: #fff;
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main div {
+  width: 50%;
+  margin: 50px 0;
+}
+main h2 {
+  padding-right: 15px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: #203966;
+  text-align: right;
+}
+main p, main li {
+  margin: 15px 0;
+  font-size: 20px;
+  color: #203966;
+  text-align: justify;
+  text-indent: 2em;
+}
+main ul {
+  margin: 35px 0 35px 70px;
+}
+main .language {
+  list-style: round url("../img/flask.png");
+}
+main .project {
+  list-style: round url("../img/thumbtick.png");
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background: linear-gradient(90deg, #6B52E6 0.96%, #203966 99.44%), #6B52E6;
+}
+footer section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+footer h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: #fff;
+}
+footer p {
+  font-size: 24px;
+  color: #203966;
+}
+footer .contact {
+  font-family: "Fondamento", serif;
+  font-size: 24px;
+  color: #fff;
+}
+footer div > a {
+  display: inline-block;
+  margin: 20px 15px;
+  border-radius: 5px;
+  background-color: #203966;
+}
+footer img {
+  display: table-cell;
+  height: 40px;
+  width: 45px;
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-family: "Roboto", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

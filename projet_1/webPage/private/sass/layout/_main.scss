@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    justify-content: center;
+
+    div{
+        width: 50%;
+        margin: 50px 0;
+    }
+
+    h2{
+        padding-right: 15px;
+        margin-bottom: 50px;
+
+        font-size: $large;
+        color: $darkPurple;
+        text-align: right;
+
+    }
+
+    p,li{
+        margin: 15px 0;
+
+        font-size: $small;
+        color: $darkPurple;
+        text-align: justify;
+        text-indent: 2em;
+    }
+
+    ul{
+        margin: 35px 0 35px 70px;
+    }
+    
+    .language{
+        list-style: round url('../img/flask.png');
+    }
+
+    .project{
+        list-style: round url('../img/thumbtick.png');
+    }
+}

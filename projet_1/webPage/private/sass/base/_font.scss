@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+//font-family: 'Fondamento', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+//font-family: 'Roboto', sans-serif;
+
+.highlight{
+    background: $lightPurple;
+    padding: 0 15px;
+}
+
+.linearLighlight{
+    background: linear-gradient(90deg, $white 0%, $lightPurple 100%), $lightPurple;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.italic{
+    font-style: italic;
+}
